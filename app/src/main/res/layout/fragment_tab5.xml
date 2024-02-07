@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/r2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="1. Ringkas = prinsip membuang yang tidak perlu dan menyimpan yang diperlukan, barang mana saja yang seharusnya disimpan dan yang tidak memiliki manfaat."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="2. Rapi = menyimpan barang sesuai tempatnya. Kerapian adalah konsistensi saat meletakkan dan mengambilnya kembali, ketika diperlukan dengan cepat dan mudah."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="3. Resik = prinsip yang harus menjadi kebiasaan dan dilaksanakan oleh setiap orang, mulai dari bawahan hingga atasan tanpa terkecuali."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="4. Rawat = menjaga eksistensi hasil yang telah diwujudkan pada ringkas, rapi, resik (3R) sebelumnya, dengan membuat standardisasi atau membakukannya."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="5. Rajin atau shitsuke merupakan kebiasaan baik yang harus dibudayakan di tempat kerja."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="610dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>

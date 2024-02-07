@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/k3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Mencegah orang – orang baik tenaga kerja, partner atau client dan pemilik usaha mengalami penyakit akibat kerja tertentu di lingkungan tempat kerja. Mencegah terjadinya kecelakaan di tempat kerja ketika sedang bekerja. Mencegah potensi korban mati ketika bekerja. Mengurangi dan mencegah angka terjadinya cacat tetap atau cacat permanen. Mencegah terjadinya pemborosan tenaga kerja, alat, modal, atau pun sumber – sumber produksi yang lainnya."
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="250dp"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

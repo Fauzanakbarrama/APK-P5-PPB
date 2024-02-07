@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/k"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K3LH"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="K3LH adalah kependekan dari Kesehatan Keselamatan Kerja dan Lingkungan Hidup. K3LH adalah suatu aturan yang berkaitan dengan keselamatan kerja bagi pekerja dan lingkungan tempat bekerja. Secara umum K3lh adalah suatu program kerja yang didalamnya membahas tentang kesehatan, keselamatan kerja dan lingkungan hidup dalam suatu instansi atau suatu perusahaan."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"
+            />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/r1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5R"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="5R merupakan kebiasaan tentang bagaimana seseorang memperlakukan tempat kerjanya secara benar, jika tempat kerja rapi, bersih, dan tertib maka kemudahan bekerja perorangan dapat diciptakan serta dengan begitu 4 bidang sasaran pokok industri, yaitu efisiensi, produktivitas, kualitas, dan keselamatan kerja dapat lebih mudah dicapai."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
